@@ -25,6 +25,7 @@ executable aoc-2020
                      , AOC007
                      , AOC008
                      , AOC009
+                     , AOC010
                      , Console
                      , Generator
                      , Problem
