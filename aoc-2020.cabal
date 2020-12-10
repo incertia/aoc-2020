@@ -1,0 +1,48 @@
+cabal-version:       >=1.10
+name:                aoc2020
+version:             0.0.0.1
+-- synopsis:
+-- description:
+-- bug-reports:
+license:             BSD3
+license-file:        LICENSE
+author:              Will Song
+maintainer:          incertia@incertia.net
+-- copyright:
+-- category:
+build-type:          Simple
+extra-source-files:  CHANGELOG.md
+
+executable aoc-2020
+  main-is:             Main.hs
+  other-modules:       Solver
+                     , AOC001
+                     , AOC002
+                     , AOC003
+                     , AOC004
+                     , AOC005
+                     , AOC006
+                     , AOC007
+                     , AOC008
+                     , AOC009
+                     , Console
+                     , Generator
+                     , Problem
+  build-depends:       base >= 4.7 && < 5
+                     , arithmoi
+                     , array
+                     , constraints
+                     , containers
+                     , data-has
+                     , hashable
+                     , lens
+                     , mtl
+                     , parsec
+                     , split
+                     , template-haskell
+                     , time
+                     , unordered-containers
+                     , vector
+  hs-source-dirs:      src/
+  default-language:    Haskell2010
+  ghc-options:         -Wall -Wno-orphans -O2

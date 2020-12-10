@@ -1,0 +1,12 @@
+.stack-work/
+.clangd/
+output/
+cbuild/
+debug/
+release/
+dist-newstyle/
+dist/
+input/
+.*.swp
+*.lock
+compile_commands.json
