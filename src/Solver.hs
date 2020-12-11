@@ -20,6 +20,7 @@ import AOC007 ()
 import AOC008 ()
 import AOC009 ()
 import AOC010 ()
+import AOC011 ()
 
 generateMap ''Solved 'Problem.solve "solvers"
 
